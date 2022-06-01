@@ -178,7 +178,7 @@ class XRaysTrainDataset(Dataset):
         return merged_df
     
     def get_train_val_list(self):
-        f = open(os.path.join('train_val_list.txt'), 'r')
+        f = open(os.path.join('../input/data','train_val_list.txt'), 'r')
         train_val_list = str.split(f.read(), '\n')
         return train_val_list
 

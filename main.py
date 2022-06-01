@@ -56,7 +56,7 @@ else:
 script_start_time = time.time() # tells the total run time of this script
 
 # mention the path of the data
-data_dir = os.path.join('data',args.data_path) # Data_Entry_2017.csv should be present in the mentioned path
+data_dir = os.path.join('../input',args.data_path) # Data_Entry_2017.csv should be present in the mentioned path
 
 # define a function to count the total number of trainable parameters
 def count_parameters(model): 

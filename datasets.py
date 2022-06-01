@@ -271,7 +271,7 @@ class XRaysTestDataset(Dataset):
         return test_df
 
     def get_test_list(self):
-        f = open( os.path.join('test_list.txt'), 'r')
+        f = open( os.path.join('../input/','test_list.txt'), 'r')
         test_list = str.split(f.read(), '\n')
         return test_list
 
